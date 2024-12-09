@@ -1,0 +1,216 @@
+.hero {
+    background-image: url(../../../assets/icons/bg.svg);
+    background-color: #0D0D0D;
+    width: 100%;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .hero-text {
+    color: #ffffff;
+    text-align: center;
+    width: Hug (659px)px;
+    height: Hug (150px)px;
+    top: 200px;
+    left: 390px;
+    gap: 16px;
+    opacity: 0px;
+}
+.hero-text h1 {
+    font-family: Grenze;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.hero-text span {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+main {
+    padding: 2rem 291px;
+}
+h4 {
+    color: #0013B2;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 1.5rem;
+}
+h6 {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+}
+p {
+    color: #333333;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+img {
+    width: 100%;
+    margin-top: 1rem;
+}
+.caption {
+    color: #202020;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.article1 {
+    margin-bottom: 1rem;
+}
+.project-summary .role {
+    color: #202020;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.project-summary .role span {
+    color: #666666;
+}
+.project-summary p {
+    margin-bottom: 1rem;
+}
+
+.article2 {
+    margin-bottom: 2.5rem;
+}
+.article2 span {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.article2 img {
+    margin-bottom: 1rem;
+}
+
+.second-section article {
+    margin-bottom: 2rem;
+}
+.second-section p:nth-of-type(1) {
+    margin-bottom: 1rem;
+}
+.second-section p a {
+    color: #0C14D9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.third-section article:nth-of-type(2) h6,
+.third-section article:nth-of-type(2) p:nth-of-type(2) {
+    margin-top: 1.5rem;
+}
+
+.closing-credits .team {
+    display: grid;
+    grid-template-columns: 235px 183px 154px 210px;
+    justify-content: space-between;
+    margin-top: .6rem;
+}
+.closing-credits .team ul {
+    padding-left: 1.8rem;
+}
+.closing-credits .team ul li {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.next {
+    width: 310px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D0D0D;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    position: relative;
+    left: 65%;
+}
+.next a {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.slider {
+    margin: 5rem;
+}
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    /* overflow: hidden; */
+}
+
+.slides img {
+    width: 100%;
+    max-height: 700px;
+    display: none;
+    transition: opacity 0.5s;
+}
+
+.slides img.active {
+    display: block;
+    opacity: 1;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: 3px solid #202020;
+    border-radius: 10px;
+    padding: 0px 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+button:first-of-type {
+    left: -60px;
+}
+
+button:last-of-type {
+    right: -60px;
+}  

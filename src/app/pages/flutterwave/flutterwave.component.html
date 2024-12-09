@@ -1,0 +1,139 @@
+<div class="hero">
+    <div class="hero-text">
+        <h1>Flutterwave Help Centre</h1>
+        <span>Content Design, Information Architecture</span>
+    </div>
+</div>
+<main>
+    <article class="project-summary">
+        <h4>Project Summary</h4>
+        <p>
+            Together with the Design team, and other Content Designers, I contributed to the redesign of the Flutterwave Support website. From a business standpoint, this was a long overdue project since the old Support page was no longer sufficient to meet the user experience requirements of the fast-growing nature of the company and especially, our customers.
+        </p>
+        <span class="role"><span>Role:</span> Content Designer.</span>
+    </article>
+    <section class="first-section">
+        <article class="article1">
+            <h4>What we needed to solve</h4>
+        <p>
+            After thoroughly analyzing customer feedback and gauging the ever-increasing customer experience trends, the team was able to identify key problem areas existing within the old support page.
+        </p>
+        <img src="../../../assets/images/what-we-needed-to-solve.png" alt="">
+        <span class="caption">Old Flutterwave Support Page</span>
+        </article>
+        <article class="article2">
+            <p>
+                <span>1. Information Cluster: </span>
+                Although Flutterwave began with just one product in 2016, the company has now built multiple products across diverse customer verticals. This made it difficult for customers to find relevant information as we created more support content. Hence, the information cluster. As part of the team, I was tasked with rethinking how we categorized information and generally improving information architecture to make it easier for customers to navigate the website.
+            </p>
+            <img src="../../../assets/images/what-we-needed-to-solve0.png" alt="">
+            <p>
+                <span>2.</span> Some of the content contained industry jargon and developer-speak that didn't provide the needed clarity for non-technical customers: this occurred because most of the old articles were written by developers. Flutterwave started as a payments infrastructure company targeted at a more technical audience. Our language and communication style had evolved everywhere else, but less so in the support articles.    
+            </p>
+            <p>
+                <span>3.</span> Some of the articles contained outdated flows and information that were not reflective of the changes that had been implemented in the products: Customers were still finding articles that were inconsistent with evolved flows and information on our products.
+            </p>
+            <p>
+                <span>4.</span> We weren’t measuring the impact of our support content on customer interactions. The company needed a data-centric approach to running a Support Website.
+            </p>
+        </article>
+    </section>
+    <section class="second-section">
+        <h4>How we solved the problems</h4>
+        <p>Here’s how I contributed to solving all the issues I outlined above.</p>
+        <article>
+            <h6>Created a navigation mood board</h6>
+            <p>
+                Previously, we categorized Support articles based on product capabilities rather than ease of accessibility. Using Notion, I made a list of all our current articles and their current support categories. For existing products, we ensured that articles only existed under the relevant subcategories. For new products, I built out a fresh set of categories and assigned articles to them. <a href="https://drive.google.com/file/d/1sdIwgW1CPLsAg6373J-ExZ8TxW9tiq6p/view">Video showing navigation moodboard</a>
+            </p>
+        </article>
+        <article>
+            <h6>Rewrote and gave context to over 200 articles</h6>
+            <p>
+                Our customers are typically entrepreneurs and small business owners. They need to understand our articles with little to no guidance. Also, I needed to make sure we were communicating only the correct information. For example, we had just launched a new Flutterwave for Business dashboard with a redesigned flow and navigation. The augmented visuals (screenshots and screen recordings) within articles definitely had to match what exists on the new dashboard. <br>
+                We repeated the same approach for all Support pages with audio-visuals
+            </p>
+        </article>
+        <article>
+            <h6>Collaborating with other stakeholders</h6>
+            <p>
+                Multiple teams collaborated to bring the project to life, including content design, product design, brand design, customer experience, product, web experience, and engineering. <br>
+                Providing context to users is critical, and I involved relevant stakeholders from different teams who had the most knowledge and context of our products. This included product managers (PMs) who helped us understand the problems and solutions each article addressed. PMs also identified redundant articles or information that required revision.
+            </p>
+        </article>
+    </section>
+    <section class="third-section">
+        <h4>Outcomes</h4>
+        <article>
+            <h6>A more helpful navigation system</h6>
+            <p>
+                In the former support page, customers would have to return to the home page every time they wanted to access other support articles. <br>
+                This was redesigned to include a side navigation that allows for easy access to other articles within the same category without having to return to the home page. This combined with the regrouping of articles into their relevant categories meant that customers could now find their way around better.
+            </p>
+            <img src="../../../assets/images/old-nav.png" alt="Old Navigation image">
+            <span class="caption">Old Navigation</span>
+            <img src="../../../assets/images/new-nav.png" alt="New Navigation image">
+            <span class="caption">New Navigation</span>
+        </article>
+        <article>
+            <h6>Receiving direct feedback from customers</h6>
+            <p>
+                One of the key things we wanted to achieve with the new Support page was an active feedback system. On the former support page, there was an option at the end of every support article for people to click an emoji indicating whether or not they found the article helpful, but that’s where it ended.
+            </p>
+            <img src="../../../assets/images/old-feedback-flow.png" alt="Old feedback flow">
+            <span class="caption">Old feedback flow</span>
+            <p>
+                We took this a step further by including a feedback form so customers can not only tell us if an article was helpful but also share how it can be improved. The feedback shared here is automatically collated for the team to review in real-time.
+            </p>
+            <div class="slider">
+                <div class="carousel">
+                    <div class="slides">
+                        <img
+                            *ngFor="let image of images; let i = index"
+                            [src]="image"
+                            [class.active]="i === currentIndex"
+                            alt="Slide"
+                        />
+                    </div>
+                    <button (click)="prevSlide()">&#10094;</button>
+                    <button (click)="nextSlide()">&#10095;</button>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="closing-credits">
+        <h4>Closing Credits</h4>
+        <div class="team">
+            <div class="c-designers">
+                <h6>Content designers</h6>
+                <ul>
+                    <li>Myself(Ademola Adepoju)</li>
+                    <li>Mayowa Adeyemi</li>
+                    <li>Solomon Osadolo</li>
+                </ul>
+            </div>
+            <div class="p-designers">
+                <h6>Product designers</h6>
+                <ul>
+                    <li>Onyinye Chukwuka</li>
+                    <li>Ted Oladele</li>
+                </ul>
+            </div>
+            <div class="illustrator">
+                <h6>Illustrator</h6>
+                <ul>
+                    <li>Chukwudi Duru</li>
+                </ul>
+            </div>
+            <div class="engineering">
+                <h6>Engineering</h6>
+                <ul>
+                    <li>Damilola Majekodunmi</li>
+                </ul>
+            </div>
+        </div>
+        <div class="next">
+            <a routerLink="/sendapp">Next: Send App Verification</a>
+        </div>
+    </section>
+</main>

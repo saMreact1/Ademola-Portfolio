@@ -1,0 +1,145 @@
+.hero {
+    background-image: url(../../../assets/icons/bg.svg);
+    background-color: #0D0D0D;
+    width: 100%;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .hero-text {
+    color: #ffffff;
+    text-align: center;
+    width: Hug (659px)px;
+    height: Hug (150px)px;
+    top: 200px;
+    left: 390px;
+    gap: 16px;
+    opacity: 0px;
+}
+.hero-text h1 {
+    font-family: Grenze;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.hero-text span {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+main {
+    padding: 2rem 291px;
+}
+h4 {
+    color: #0013B2;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 1.5rem;
+}
+h6 {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+}
+p {
+    color: #333333;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+img {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.summary div {
+    display: grid;
+    gap: .8rem;
+}
+.role {
+    color: #333333;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.role span {
+    color: #666666;
+}
+
+.caption {
+    display: block;
+    color: #202020;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 28px;
+    /* margin-top: 5px; */
+}
+
+.next {
+    width: 310px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D0D0D;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    position: relative;
+    left: 65%;
+}
+.next a {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+section:nth-of-type(1) img {
+    width: 621px;
+    height: 400px;
+}
+
+section:nth-of-type(2) img:nth-of-type(1) {
+    width: 596.36px;
+    height: 400px;
+}
+section:nth-of-type(2) img:nth-of-type(2) {
+    width: 403.7px;
+    height: 400px;
+}
+section:nth-of-type(2) .img-grid img {
+    width: 206px;
+}
+
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 460px) {
+    
+}
