@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
-import Typewriter from 't-writer.js';
+// import Typewriter from 't-writer.js';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
@@ -128,68 +128,68 @@ export class HomeComponent {
     const target1 = document.querySelector('.job');
     const target2 = document.querySelector('.brief');
 
-    const writer = new Typewriter(target, {
-      // loop: true,
-      typeColor: 'white'
-    })
-    const writer1 = new Typewriter(target1, {
-      // loop: true,
-      typeColor: 'white'
-    })
-    const writer2 = new Typewriter(target2, {
-      // loop: true,
-      typeColor: 'white'
-    })
-    const writer3 = new Typewriter(target2, { 
-      typeSpeed: 60 
-    })
+    // const writer = new Typewriter(target, {
+    //   // loop: true,
+    //   typeColor: 'white'
+    // })
+    // const writer1 = new Typewriter(target1, {
+    //   // loop: true,
+    //   typeColor: 'white'
+    // })
+    // const writer2 = new Typewriter(target2, {
+    //   // loop: true,
+    //   typeColor: 'white'
+    // })
+    // const writer3 = new Typewriter(target2, { 
+    //   typeSpeed: 60 
+    // })
     
-    writer
-      .type("Hello,")
-      .rest(1000)
-      .type(" I'm Ademola 👋")
-      .rest(500)
-      .then(writer1.start.bind(writer1))
-      .start()
+  //   writer
+  //     .type("Hello,")
+  //     .rest(1000)
+  //     .type(" I'm Ademola 👋")
+  //     .rest(500)
+  //     .then(writer1.start.bind(writer1))
+  //     .start()
     
-    writer1
-      .type("UX Writer |")
-      .rest(500)
-      // .clear()
-      .changeTypeColor('blue')
-      .type(" Content Designer |")
-      .rest(500)
-      // .clear()
-      .changeTypeColor('white')
-      .type(" Human")
-      .rest(500)
-      .clear()
-      .changeTypeColor('red')
-      .then(writer2.start.bind(writer2))
+  //   writer1
+  //     .type("UX Writer |")
+  //     .rest(500)
+  //     // .clear()
+  //     .changeTypeColor('blue')
+  //     .type(" Content Designer |")
+  //     .rest(500)
+  //     // .clear()
+  //     .changeTypeColor('white')
+  //     .type(" Human")
+  //     .rest(500)
+  //     .clear()
+  //     .changeTypeColor('red')
+  //     .then(writer2.start.bind(writer2))
     
-    writer2
-      .type('...helping design-forward organizations')
-      .removeCursor()
-      .then(writer3.start.bind(writer3))
-      .start()
+  //   writer2
+  //     .type('...helping design-forward organizations')
+  //     .removeCursor()
+  //     .then(writer3.start.bind(writer3))
+  //     .start()
     
-    writer3
-      .type(" craft delightful")
-      .rest(500)
-      .clear()
-      .changeTypeColor('white')
-      .type("...and useful product experiences.")
-      .rest(500)
-      .clear()
-      .changeTypeColor('white')
-      .then(writer.start.bind(writer))
-  }
+  //   writer3
+  //     .type(" craft delightful")
+  //     .rest(500)
+  //     .clear()
+  //     .changeTypeColor('white')
+  //     .type("...and useful product experiences.")
+  //     .rest(500)
+  //     .clear()
+  //     .changeTypeColor('white')
+  //     .then(writer.start.bind(writer))
+  // }
 
-  toggleHover(svgSource: any): void {
-    if (svgSource === 'original') {
-      svgSource = 'original';
-    } else {
-      svgSource = 'hovered';
-    }
+  // toggleHover(svgSource: any): void {
+  //   if (svgSource === 'original') {
+  //     svgSource = 'original';
+  //   } else {
+  //     svgSource = 'hovered';
+  //   }
   }
 }
