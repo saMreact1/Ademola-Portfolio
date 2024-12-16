@@ -117,3 +117,55 @@ img {
     line-height: 28px;
     text-decoration: none;
 }
+
+
+/* MOBILE VIEW */
+/* MOBILE VIEW */
+/* MOBILE VIEW */
+
+@media only screen and (max-width: 450px) {
+    .hero {
+        height: 300px;
+    }
+    .hero-text h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .hero-text span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    h6 {
+        font-size: 15px;
+        line-height: 11px;
+    }
+    img {
+        width: 50%;
+        height: auto;
+    }
+
+    main {
+        padding: .5rem 1.7rem;
+    }
+
+    .role {
+        font-size: 14px;
+    }
+    .caption {
+        font-size: 14px;
+    }
+
+    .next {
+        width: 214px;
+        height: 48px;
+        margin: 4rem auto 3rem;
+        left: auto;
+    }
+    .next a {
+        font-size: 14px;
+    }
+}

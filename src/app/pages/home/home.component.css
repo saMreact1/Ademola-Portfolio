@@ -103,7 +103,7 @@
     text-decoration-skip-ink: none;
 }
 
-.projects-grid .grid-items span:nth-of-type(1) {
+.projects-grid .grid-items p {
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
@@ -284,6 +284,7 @@
         width: 300px;
         height: 32px;
         top: 310px;
+        clip-path: polygon(13% 30%, 87% 30%, 100% 100%, 0% 100%);
     }
     .hero-text {
         width: 320px;
@@ -294,12 +295,13 @@
     }
     .hero .hero-text span p {
         font-size: 14px;
-        line-height: 30px;
-        margin-bottom: 0rem;
+        line-height: 24px;
+        margin-top: 0;
+        margin-bottom: 0.6rem;
     }
-    .hero .hero-text span:nth-of-type(2) {
+    .hero .hero-text span.brief {
         font-size: 14px;
-        line-height: 30px;
+        line-height: 10px;
     }
 
     .projects .title svg {
@@ -323,9 +325,9 @@
         line-height: 22px;
         margin-bottom: 0;
     }
-    .projects-grid .grid-items span:nth-of-type(1) {
+    .projects-grid .grid-items p {
         font-size: 12px;
-        line-height: 0;
+        line-height: 16px;
     }
 
     .publications {

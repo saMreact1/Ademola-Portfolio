@@ -15,25 +15,18 @@
     top: 200px;
     left: 390px;
     gap: 16px;
-    opacity: 0px;
 }
 .hero-text h1 {
     font-family: Grenze;
     font-size: 64px;
     font-weight: 400;
     line-height: 72px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 }
 .hero-text span {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 }
 
 main {
@@ -45,9 +38,6 @@ h4 {
     font-size: 24px;
     font-weight: 600;
     line-height: 28px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     margin-top: 1.5rem;
 }
 h6 {
@@ -62,9 +52,6 @@ p {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 }
 img {
     width: 100%;
@@ -77,9 +64,6 @@ img {
     font-style: italic;
     font-weight: 500;
     line-height: 28px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 }
 
 .article1 {
@@ -91,9 +75,6 @@ img {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 }
 .project-summary .role span {
     color: #666666;
@@ -213,4 +194,76 @@ button:first-of-type {
 
 button:last-of-type {
     right: -60px;
-}  
+}
+
+
+/* MOBILE VIEW */
+/* MOBILE VIEW */
+/* MOBILE VIEW */
+
+@media only screen and (max-width: 450px) {
+    .hero {
+        height: 300px;
+    }
+    .hero-text h1 {
+        font-size: 30px;
+        line-height: 20px;
+    }
+    .hero-text span, p, .article2 span {
+        font-size: 15px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    h6 {
+        font-size: 15px;
+        line-height: 11px;
+    }
+
+    main {
+        padding: .5rem 1.7rem;
+    }
+
+    .project-summary .role {
+        font-size: 14px;
+    }
+
+    .caption {
+        font-size: 14px;
+    }
+
+    .slider {
+        margin: 3rem;
+    }
+    button {
+        font-size: 15px;
+        border: 2px solid #202020;
+    }
+    button:first-of-type {
+        left: -47px;
+    }
+    button:last-of-type {
+        right: -47px;
+    }
+
+    .closing-credits .team {
+        grid-template-columns: 100%;
+    }
+    .closing-credits h4 {
+        margin-bottom: 1.8rem;
+    }
+    .closing-credits .team ul li {
+        font-size: 14px;
+    }
+
+    .next {
+        width: 214px;
+        height: 48px;
+        margin: 4rem auto 3rem;
+        left: auto;
+    }
+    .next a {
+        font-size: 14px;
+    }
+}
