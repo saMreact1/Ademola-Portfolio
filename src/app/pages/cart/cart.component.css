@@ -22,18 +22,12 @@
     font-size: 64px;
     font-weight: 400;
     line-height: 72px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 }
 .hero-text span {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 }
 
 main {
@@ -45,9 +39,6 @@ h4 {
     font-size: 24px;
     font-weight: 600;
     line-height: 28px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     margin-top: 1.5rem;
 }
 h6 {
@@ -62,9 +53,6 @@ p {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 }
 img {
     width: 198.9px;
